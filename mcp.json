@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fincodesapi": {
+      "type": "streamable-http",
+      "url": "https://mcp.fincodesapi.com/mcp"
+    }
+  }
+}

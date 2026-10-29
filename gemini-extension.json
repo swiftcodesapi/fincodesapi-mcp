@@ -1,0 +1,16 @@
+{
+  "name": "fincodesapi",
+  "version": "1.0.0",
+  "description": "IBAN and bank-code validation, payee-name verification, and sanctions screening.",
+  "mcpServers": {
+    "fincodesapi": {
+      "httpUrl": "https://mcp.fincodesapi.com/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "fincodesapi"
+        ]
+      }
+    }
+  }
+}

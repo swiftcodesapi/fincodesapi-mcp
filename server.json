@@ -3,7 +3,7 @@
   "name": "com.fincodesapi/fincodesapi",
   "title": "Fin Codes API",
   "description": "Validate IBANs and bank codes, verify payee names, and screen names against sanctions lists.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://fincodesapi.com/mcp-server",
   "remotes": [
     {

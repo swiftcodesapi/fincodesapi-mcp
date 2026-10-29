@@ -36,6 +36,18 @@ Add to `.vscode/mcp.json`, then start the server and sign in:
 
 Add the remote endpoint in the client's MCP settings. The included `mcp.json` defines the connection; `plugin.json` is a portable Agent Plugins manifest. Client support and OAuth setup vary.
 
+### Cline
+
+In Cline, open **MCP Servers → Remote Servers**, add the endpoint above, and choose **Streamable HTTP**. Complete OAuth authorization when prompted. If using JSON configuration, use Cline's transport spelling:
+
+```json
+{"mcpServers":{"fincodesapi":{"type":"streamableHttp","url":"https://mcp.fincodesapi.com/mcp","disabled":false,"autoApprove":[]}}}
+```
+
+If OAuth is unavailable in your client version, create your own API token at https://fincodesapi.com/api-keys and add an `Authorization: Bearer YOUR_API_KEY` header locally. Keep the key out of shared files. Confirm that eleven tools appear and try looking up BSB `082-024`.
+
+See [Cline's MCP documentation](https://github.com/cline/cline/blob/main/docs/mcp/mcp-overview.mdx). Cline installation of this connector has not yet been independently tested.
+
 ### Gemini CLI
 
 ```sh

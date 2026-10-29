@@ -2,9 +2,12 @@
 
 Connect your AI assistant to banking reference data, payee-name verification, and sanctions screening.
 
-**Hosted endpoint:** `https://mcp.fincodesapi.com/mcp`  
-**Transport:** Streamable HTTP  
-**Homepage and setup:** https://fincodesapi.com/mcp-server  
+**Hosted endpoint:** `https://mcp.fincodesapi.com/mcp`
+
+**Transport:** Streamable HTTP
+
+**Homepage and setup:** https://fincodesapi.com/mcp-server
+
 **Official registry:** `com.fincodesapi/fincodesapi`
 
 This repository contains public connector configuration and documentation for the hosted service. It does not contain the proprietary backend, run a local server, or publish an npm, PyPI, or Docker package.
